@@ -1,0 +1,75 @@
+body{
+    font-family: Roboto, sans-serif;
+}
+
+body p {
+    font-size: 22px;
+}
+
+.navbar{
+    background-color:rgba(36, 40, 46, 0.575);
+}
+
+.navbar .nav .nav-link.active {
+    background-color: #9e0b0b;
+    color:  #fff;
+}
+
+.navbar .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-produtos .nav-link.nav-link.active:hover{
+    color:#fff;
+} 
+
+.section-title {
+    font-family: "Jersey 10", sans-serif;
+}
+
+#sobre-a-loja, #produtos {
+    background-color: #23282e52;
+}
+
+.container img{
+    width: 100%;
+}
+
+.navbar-toggler{
+    background-color: #fff;
+}
+
+.nav-produtos .nav-link.active {
+    background-color: rgba(255, 0, 0, 0.829);
+    color: #fff;
+}
+
+.nav-produtos .nav-link:hover {
+    color: rgba(255, 0, 0, 0.829)
+}
+
+.text-colorad {
+    color: rgba(255, 0, 0, 0.829);
+}
+
+.carousel-item img {
+    width: 100%;
+}
+
+.section-title {
+    font-family: "Pixelify Sans", sans-serif;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+@media( max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}
